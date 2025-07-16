@@ -118,6 +118,12 @@
         transition: .5s;
         opacity: 1;
     }
+
+    /* Make dropdown scrollable if too tall */
+    .dropdown-menu {
+        max-height: 300px; /* Adjust height as needed */
+        overflow-y: auto;
+    }
 }
 
 
