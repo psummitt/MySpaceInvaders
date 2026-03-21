@@ -93,12 +93,11 @@
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 mb-3 animated slideInDown">Our List</h1>
+                    <h1 class="display-4 mb-3 animated slideInDown">My List</h1>
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol class="breadcrumb mb-0">
                             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                            <li class="breadcrumb-item"><a href="list.html">Out List</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Our List</li>
+                            <li class="breadcrumb-item active" aria-current="page">My List</li>
                         </ol>
                     </nav>
                 </div>
@@ -367,7 +366,8 @@
     <div class="container-fluid bg-dark text-white border-top border-secondary px-0">
         <div class="d-flex flex-column flex-md-row justify-content-between">
             <div class="py-4 px-5 text-center text-md-start">
-                <p class="mb-0">&copy; 2025 <a class="text-primary" href="#">My Space Invaders</a>. All Rights Reserved.</p>
+                <p class="mb-0">&copy;<span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> Paul M. Summitt  All Rights Reserved.</p>
             </div>
             <div class="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
                 <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
